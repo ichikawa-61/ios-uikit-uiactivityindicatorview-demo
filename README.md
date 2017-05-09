@@ -12,12 +12,14 @@ UIView
 3.メソッド実装</br>
 
 ## 主要プロパティ                                       
-|     プロパティ名       |                      説明                         |                サンプル              |
+|プロパティ名            |                      説明                         |                サンプル              |
 |:---------------------|-------------------------------------------------:|:-----------------------------------:|
 |hidesWhenStopped      | アニメーション中でない時に、indicatorを隠す            |indicator.hidesWhenStopped = true    |                             
-|isAnimating           | アニメーション中か確認(Bool)                         |indicator.isAnimating                |
-|color                 | indicatorに色をつける                              |indicator.colar = UIColar.red        |
+|isAnimating           | アニメーション中か確認(Bool)                         |indicator.isAnimating                |
+|color                 | indicatorに色をつける                              |indicator.colar = UIColar.red        |
 
 ## 主要メソッド
-startAnimating()
-stopAnimating()
+|        メソッド       |                       説明                        |                サンプル               |
+|:---------------------|-------------------------------------------------:|:------------------------------------:|
+|startAnimating()      |アニメーションスタート                                |indicator.startAnimating()            |      
+|stopAnimating()       |アニメーションストップ                                |indicator.stopAnimating()             |
